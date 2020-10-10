@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 1100px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+
+
+	  padding:0;
+	  margin:0;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+	
+	img.figure-img{
+		height: 400px;
+		width: 50%;
+		padding: 0;
+		margin: 0;
+		}
+
+	.mainpicture{
+		padding:0;
+		margin:0;
+		}	
+	
+    .maintext{
+		padding:15px;
+	}
+
+  </style>
+</head>
+<body>
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">CIS 4296</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="resume.html">Resume</a>
+              </div>
+            </div>
+          </nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav ">
+
+    </div>
+<figure class="figure col-sm-8 mainpicture">
+  <img src="img/12-39-40-EItMmHYUwAAX9x2.jpg" class="figure-img img-fluid">
+  <figcaption class="figure-caption ">Temple Overwatch A team 2019-2020 roster (me in lower right)</figcaption>
+  
+  <div class="maintext row justify-content-md-center">
+  <div class="mbr-white col-md-10 text-left">
+	  <h1 style="font-family: 'Roboto', sans-serif;">About me:</h1>
+	  <br/>
+	  <p class="mbr-text pb-3 mbr-fonts-style display-7">Hi, my name is Haolin Song, a 22-year-old guy who was born and raised in Guangzhou, China. I came to States for college in 2016 and transferred to Temple in spring 2019, so I’m in the senior year right now and majoring in IST. As you can see from the picture above, I’m currently a player in Temple eSports club Overwatch A team and probably this is one of the most interesting things in my boring life.</p>
+	<hr>
+	<h1 style="font-family: 'Roboto', sans-serif;">Some other stuff:</h1>
+	<br/>
+  </div>
+  <br/>
+   <div class="card " style=" width: 30%;">
+     <img src="img/20200215_195246.jpg" class="card-img-top">
+     <div class="card-body">
+       <p class="card-text">Playing on LAN</p>
+
+  
+     </div>
+   </div>
+   
+   <div class="card" style="width: 30%;">
+     <img src="img/mmexport1516906841244.jpg" class="card-img-top">
+     <div class="card-body">
+       <p class="card-text">When I was addicted to mountain biking</p>
+
+     
+     </div>
+   </div>
+   
+   <div class="card" style="width: 30%;">
+     <img src="img/20110101030.jpg" class="card-img-top">
+     <div class="card-body">
+       <p class="card-text">My cute kitty Xiaobai</p>
+
+     
+     </div>
+   </div>
+</figure>
+
+    <div class="col-sm-2 sidenav">
+
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center bg-dark">
+   <p>Haolin Song <br/> <a href="mailto:tuk84625@temple.edu">tuk84625@temple.edu</a></p>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
